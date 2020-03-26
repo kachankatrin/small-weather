@@ -1,4 +1,52 @@
-.App {
+html, #root {
+  background-color: #e0f1f9;
+}
+.container-flex {
+  display: flex;
+  border: 10px solid black;
+  max-width: 900px;
+  height: 350px;
+  margin: 10rem auto;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 30px;
+  opacity: 0.7
+}
+.winter {
+  background-color: #cae8d5;
+  border: 10px solid #84a9ac;
+  color: #3b6978;
+  font-size: 30px;
+}
+.summer {
+  background-color: #fae7cb;
+  border: 10px solid #ffb385;
+  color: #ff7272;
+}
+.fa-snowflake-o {
+  color: #204051;
+}
+.fa-sun-o {
+  color: #ffd31d;
+}
+.fa {
+  font-size: 150px;
+}
+h2 {
+  max-width: 60%;
+}
+.fa:hover {
+  animation: spin 4s linear infinite;
+  cursor: pointer;
+}
+.container-flex:hover {
+  opacity: 1;
+}
+@keyframes spin {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(359deg);}
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +83,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
